@@ -4,12 +4,12 @@ import { validateSchema } from '../middlewares/validator.middleware.js'
 import { createReparacionSchema } from '../schemas/proyecto.schema.js'
 const router = Router()
 
-router.get('/reparaciones',getProyectos);
-router.get('/reparaciones/cliente/:id',getProyectosCliente);
-router.get('/reparaciones/:id',getReparacion);
-router.post('/reparaciones',upload, validateSchema(createReparacionSchema),createProyecto);
-router.delete('/reparaciones/:id',deleteReparacion);
-router.put('/reparaciones/:id', upload,updateReparacion);
+router.get('/proyectos',getProyectos);
+router.get('/proyectos/cliente/:id',getProyectosCliente);
+router.get('/proyectos/:id',getReparacion);
+router.post('/proyectos',upload, validateSchema(createReparacionSchema),createProyecto);
+router.delete('/proyectos/:id',deleteReparacion);
+router.put('/proyectos/:id', upload,updateReparacion);
 
 
 export default router;

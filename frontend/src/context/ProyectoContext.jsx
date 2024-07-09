@@ -7,7 +7,7 @@ import {
   updateReparacionRequest,
   calificacionReparacionRequest,
   getReparacionesclientesRequest
-} from "../api/reparacion";
+} from "../api/proyecto";
 
 const ReparacionContext = createContext();
 

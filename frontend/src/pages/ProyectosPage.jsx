@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useReparaciones } from "../context/ProyectoContext";
-import { ReparacionCard } from "../components/reparaciones/ReparacionCard";
+import { ReparacionCard } from "../components/proyectos/ProyectoCard";
 import { ImFileEmpty } from "react-icons/im";
 
 export function ReparacionesPage() {
