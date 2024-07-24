@@ -11,8 +11,10 @@ export function Navbar() {
       <ul className="flex gap-x-2">
         <>
           <li>
+          <ButtonLink to="/nosotros">Nosotros</ButtonLink>
             <ButtonLink to="/add-proyectos">Añadir proyecto</ButtonLink>
             <ButtonLink to="/proyectos">ver proyectos</ButtonLink>
+
           </li>
         </>
       </ul>

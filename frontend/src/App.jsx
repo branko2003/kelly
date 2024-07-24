@@ -10,6 +10,7 @@ import { ReparacionProvider } from "./context/ProyectoContext";
 
 import { ReparacionFormPage } from "./pages/ProyectoFormPage";
 import { ReparacionesPage } from "./pages/ProyectosPage";
+import { Nosotros } from "./pages/Nosotros";
 
 //import { ProfilePage} from "./pages/ProfilePage";
 
@@ -24,8 +25,9 @@ function App() {
               <Route path="/proyectos" element={<ReparacionesPage />} />
               <Route path="/reparaciones/:id" element={<ReparacionFormPage />} />
               <Route path="/add-proyectos" element={<ReparacionFormPage />} />
+              <Route path="/nosotros" element={<Nosotros />} />
 
-              <Route path="*" element={<Navigate to="/proyectos" />} />
+              <Route path="*" element={<Navigate to="/nosotros" />} />
 
                 <Route path="/clientes" element={<ClientesPage />} />
                 <Route path="/add-cliente" element={<ClienteFormPage />} />
